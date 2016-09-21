@@ -1,7 +1,7 @@
 #calculator{
 	padding-top: 4px;
 	width: 200px;
-	height: 150px;
+	height: 180px;
 	margin: 0 auto;
 	background-color: white;
 	border: 1px solid black;
@@ -27,6 +27,11 @@
 	padding-right: 4px;
 }
 
+#button0{
+	width: 48.5%;
+}
+
 button{
 	width: 23.2%;
 }
+

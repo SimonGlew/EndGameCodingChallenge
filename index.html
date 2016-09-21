@@ -11,28 +11,33 @@
 		</div>
 		<div id = "buttons">
 			<div id = "row1">
-				<button id = "7" onclick = "AddDigit('7')">7</button>
-				<button id = "8" onclick = "AddDigit('8')">8</button>
-				<button id = "9" onclick = "AddDigit('9')">9</button>
-				<button id = "div" onclick = "Operate('/')">/</button>
+				<button id = "clear" onclick = "clear()">AC</button>
+				<button id = "changeSign" onclick = "changeSign()">+/-</button>
+				<button id = "percentage" onclick = "percentage()">%</button>
+				<button id = "div" onclick = "operate('/')">/</button>
 			</div>
-			<div id = "row1">
-				<button id = "4" onclick = "AddDigit('4')">4</button>
-				<button id = "5" onclick = "AddDigit('5')">5</button>
-				<button id = "6" onclick = "AddDigit('6')">6</button>
-				<button id = "mul" onclick = "Operate('*')">*</button>
+			<div id = "row2">
+				<button id = "button7" onclick = "addDigit('7')">7</button>
+				<button id = "button8" onclick = "addDigit('8')">8</button>
+				<button id = "button9" onclick = "addDigit('9')">9</button>
+				<button id = "mul" onclick = "operate('*')">*</button>
 			</div>
-			<div id = "row1">
-				<button id = "1" onclick = "AddDigit('1')">1</button>
-				<button id = "2" onclick = "AddDigit('2')">2</button>
-				<button id = "3" onclick = "AddDigit('3')">3</button>
-				<button id = "sub" onclick = "Operate('-')">-</button>
+			<div id = "row3">
+				<button id = "button4" onclick = "addDigit('4')">4</button>
+				<button id = "button5" onclick = "addDigit('5')">5</button>
+				<button id = "button6" onclick = "addDigit('6')">6</button>
+				<button id = "sub" onclick = "operate('-')">-</button>
 			</div>
-			<div id = "row1">
-				<button id = "0" onclick = "AddDigit('0')">0</button>
-				<button id = "clear" onclick = "Clear()">R</button>
-				<button id = "eq" onclick = "Calculate()">=</button>
-				<button id = "add" onclick = "Operate('+')">+</button>
+			<div id = "row4">
+				<button id = "button1" onclick = "addDigit('1')">1</button>
+				<button id = "button2" onclick = "addDigit('2')">2</button>
+				<button id = "button3" onclick = "addDigit('3')">3</button>
+				<button id = "add" onclick = "operate('+')">+</button>
+			</div>
+			<div id = "row5">
+				<button id = "button0" onclick = "addDigit('0')">0</button>
+				<button id = "decimalPoint" onclick = "decimalPoint()">.</button>
+				<button id = "equals" onclick = "calculate()">=</button>
 			</div>
 		</div>
 	</div>

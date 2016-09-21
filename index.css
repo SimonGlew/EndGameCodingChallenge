@@ -15,7 +15,12 @@
 	border: 1px solid black;
 }
 
+#buttons{
+	padding-top: 6.5%;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
 button{
-	width: 23%;
-	margin: 0 auto;
+	width: 23.2%;
 }

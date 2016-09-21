@@ -7,9 +7,15 @@
 	border: 1px solid black;
 }
 
+#displayNumbers{
+	text-align: right;
+	padding-right: 3px;
+	margin-top: -3px;
+	color: black;
+}
 #display{
 	width: 90%;
-	height: 18%;
+	height: 15%;
 	margin: 0 auto;
 	background-color: white;
 	border: 1px solid black;

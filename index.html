@@ -6,7 +6,9 @@
 <body>
 	<p></p><p></p><p></p>
 	<div id = "calculator">
-		<div id = "display"></div>
+		<div id = "display">
+			<p id = "displayNumbers"></p>
+		</div>
 		<div id = "buttons">
 			<div id = "row1">
 				<button id = "7" onclick = "AddDigit('7')">7</button>
@@ -28,7 +30,7 @@
 			</div>
 			<div id = "row1">
 				<button id = "0" onclick = "AddDigit('0')">0</button>
-				<button id = "clear" onclick = "Clear()">C</button>
+				<button id = "clear" onclick = "Clear()">R</button>
 				<button id = "eq" onclick = "Calculate()">=</button>
 				<button id = "add" onclick = "Operate('+')">+</button>
 			</div>
